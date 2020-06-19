@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8B90A320BDDA6A0088AC8C /* ThesisGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B90A220BDDA6A0088AC8C /* ThesisGeneratorView.swift */; };
+		9B8B90A520BEDBCC0088AC8C /* ShowThesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B90A420BEDBCC0088AC8C /* ShowThesis.swift */; };
+		9BA8BB8320AC10E6008EC4D0 /* PlayQuizDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8BB8220AC10E6008EC4D0 /* PlayQuizDetailController.swift */; };
+		9BA8BB8520AC24EE008EC4D0 /* Quizzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8BB8420AC24ED008EC4D0 /* Quizzy.swift */; };
+		9BA8BB8720AC5BB9008EC4D0 /* AddQuizDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8BB8620AC5BB9008EC4D0 /* AddQuizDetailController.swift */; };
 		9BB5FBF420ABC2FF004BA0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FBF320ABC2FF004BA0AF /* AppDelegate.swift */; };
-		9BB5FBF620ABC2FF004BA0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FBF520ABC2FF004BA0AF /* ViewController.swift */; };
 		9BB5FBF920ABC2FF004BA0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5FBF720ABC2FF004BA0AF /* Main.storyboard */; };
 		9BB5FBFB20ABC2FF004BA0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5FBFA20ABC2FF004BA0AF /* Assets.xcassets */; };
 		9BB5FBFE20ABC2FF004BA0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5FBFC20ABC2FF004BA0AF /* LaunchScreen.storyboard */; };
 		9BB5FC0920ABC300004BA0AF /* TyQuiz_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FC0820ABC300004BA0AF /* TyQuiz_Tests.swift */; };
 		9BB5FC1420ABC300004BA0AF /* TyQuiz_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FC1320ABC300004BA0AF /* TyQuiz_UITests.swift */; };
+		9BB5FC2220ABC3ED004BA0AF /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FC2120ABC3ED004BA0AF /* TopicViewController.swift */; };
+		9BB5FC2420ABC51C004BA0AF /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FC2320ABC51C004BA0AF /* Topic.swift */; };
+		9BB5FC2620ABC544004BA0AF /* TopicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FC2520ABC544004BA0AF /* TopicStore.swift */; };
+		9BB5FC2820ABD343004BA0AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5FC2720ABD343004BA0AF /* DetailViewController.swift */; };
+		9BF68EC720B72E03007BB34E /* GPADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF68EC620B72E02007BB34E /* GPADetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B8B90A220BDDA6A0088AC8C /* ThesisGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisGeneratorView.swift; sourceTree = "<group>"; };
+		9B8B90A420BEDBCC0088AC8C /* ShowThesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowThesis.swift; sourceTree = "<group>"; };
+		9BA8BB8220AC10E6008EC4D0 /* PlayQuizDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayQuizDetailController.swift; sourceTree = "<group>"; };
+		9BA8BB8420AC24ED008EC4D0 /* Quizzy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizzy.swift; sourceTree = "<group>"; };
+		9BA8BB8620AC5BB9008EC4D0 /* AddQuizDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuizDetailController.swift; sourceTree = "<group>"; };
 		9BB5FBF020ABC2FF004BA0AF /* TyQuiz!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TyQuiz!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB5FBF320ABC2FF004BA0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BB5FBF520ABC2FF004BA0AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BB5FBF820ABC2FF004BA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BB5FBFA20ABC2FF004BA0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB5FBFD20ABC2FF004BA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		9BB5FC0F20ABC300004BA0AF /* TyQuiz!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TyQuiz!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB5FC1320ABC300004BA0AF /* TyQuiz_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyQuiz_UITests.swift; sourceTree = "<group>"; };
 		9BB5FC1520ABC300004BA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB5FC2120ABC3ED004BA0AF /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		9BB5FC2320ABC51C004BA0AF /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		9BB5FC2520ABC544004BA0AF /* TopicStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicStore.swift; sourceTree = "<group>"; };
+		9BB5FC2720ABD343004BA0AF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9BF68EC620B72E02007BB34E /* GPADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPADetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				9BB5FBF320ABC2FF004BA0AF /* AppDelegate.swift */,
-				9BB5FBF520ABC2FF004BA0AF /* ViewController.swift */,
 				9BB5FBF720ABC2FF004BA0AF /* Main.storyboard */,
+				9B8B90A420BEDBCC0088AC8C /* ShowThesis.swift */,
+				9B8B90A220BDDA6A0088AC8C /* ThesisGeneratorView.swift */,
+				9BF68EC620B72E02007BB34E /* GPADetailViewController.swift */,
+				9BA8BB8620AC5BB9008EC4D0 /* AddQuizDetailController.swift */,
+				9BA8BB8420AC24ED008EC4D0 /* Quizzy.swift */,
+				9BA8BB8220AC10E6008EC4D0 /* PlayQuizDetailController.swift */,
+				9BB5FC2720ABD343004BA0AF /* DetailViewController.swift */,
+				9BB5FC2320ABC51C004BA0AF /* Topic.swift */,
+				9BB5FC2520ABC544004BA0AF /* TopicStore.swift */,
+				9BB5FC2120ABC3ED004BA0AF /* TopicViewController.swift */,
 				9BB5FBFA20ABC2FF004BA0AF /* Assets.xcassets */,
 				9BB5FBFC20ABC2FF004BA0AF /* LaunchScreen.storyboard */,
 				9BB5FBFF20ABC2FF004BA0AF /* Info.plist */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB5FBF620ABC2FF004BA0AF /* ViewController.swift in Sources */,
+				9B8B90A320BDDA6A0088AC8C /* ThesisGeneratorView.swift in Sources */,
+				9BB5FC2220ABC3ED004BA0AF /* TopicViewController.swift in Sources */,
+				9BF68EC720B72E03007BB34E /* GPADetailViewController.swift in Sources */,
+				9BA8BB8720AC5BB9008EC4D0 /* AddQuizDetailController.swift in Sources */,
+				9BB5FC2420ABC51C004BA0AF /* Topic.swift in Sources */,
+				9B8B90A520BEDBCC0088AC8C /* ShowThesis.swift in Sources */,
+				9BB5FC2820ABD343004BA0AF /* DetailViewController.swift in Sources */,
 				9BB5FBF420ABC2FF004BA0AF /* AppDelegate.swift in Sources */,
+				9BA8BB8320AC10E6008EC4D0 /* PlayQuizDetailController.swift in Sources */,
+				9BA8BB8520AC24EE008EC4D0 /* Quizzy.swift in Sources */,
+				9BB5FC2620ABC544004BA0AF /* TopicStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +463,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59WDUPR3VF;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "TyQuiz!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tyler-Hawken.TyQuiz-";
+				PRODUCT_BUNDLE_IDENTIFIER = TyQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +479,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59WDUPR3VF;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "TyQuiz!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tyler-Hawken.TyQuiz-";
+				PRODUCT_BUNDLE_IDENTIFIER = TyQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
